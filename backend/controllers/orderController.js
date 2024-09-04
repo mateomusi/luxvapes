@@ -5,6 +5,8 @@ import userModel from "../models/userModel.js";
 const currency = "inr";
 const deliveryCharge = 10;
 
+const frontend_URL = "https://luxvapes-frontend.onrender.com";
+
 // Placing orders using COD Method
 const placeOrder = async (req, res) => {
   try {
