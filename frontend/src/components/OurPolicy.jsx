@@ -10,13 +10,21 @@ const OurPolicy = () => {
           className="w-12 m-auto mb-5 bg-[#69b4ff] rounded-xl p-1"
           alt=""
         />
-        <p className=" text-[#e0ffff] font-semibold">Easy Exchange Policy</p>
-        <p className=" text-[#69b4ff]">We offer hassle free exchange policy</p>
+        <p className=" text-[#e0ffff] font-semibold">
+          Política de Cambio Fácil
+        </p>
+        <p className=" text-[#69b4ff]">
+          Ofrecemos una política de cambio sin complicaciones
+        </p>
       </div>
       <div>
         <img src={assets.quality_icon} className="w-12 m-auto mb-5 " alt="" />
-        <p className=" text-[#e0ffff] font-semibold">7 Days Return Policy</p>
-        <p className=" text-[#69b4ff]">We provide 7 days free return policy</p>
+        <p className=" text-[#e0ffff] font-semibold">
+          Política de Devolución en 7 Días
+        </p>
+        <p className=" text-[#69b4ff]">
+          Proveemos una política de devolución gratuita de 7 días
+        </p>
       </div>
       <div>
         <img
@@ -24,8 +32,10 @@ const OurPolicy = () => {
           className="w-12 m-auto mb-5 bg-[#69b4ff] rounded-xl p-1"
           alt=""
         />
-        <p className=" text-[#e0ffff] font-semibold">Best customer support</p>
-        <p className=" text-[#69b4ff]">we provide 24/7 customer support</p>
+        <p className=" text-[#e0ffff] font-semibold">
+          Mejor Atención al Cliente
+        </p>
+        <p className=" text-[#69b4ff]">Proveemos atención al cliente 24/7</p>
       </div>
     </div>
   );

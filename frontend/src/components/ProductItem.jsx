@@ -11,7 +11,7 @@ const ProductItem = ({ id, image, name, price }) => {
       className="text-[#ffffff] cursor-pointer"
       to={`/product/${id}`}
     >
-      <div className=" overflow-hidden">
+      <div className=" overflow-hidden bg-[#000] p-4 h-60">
         <img
           className="hover:scale-110 transition ease-in-out"
           src={image[0]}

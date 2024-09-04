@@ -16,19 +16,16 @@ const Footer = () => {
         </div>
 
         <div>
-          <p className="text-xl font-medium mb-5 text-[#69b4ff] ">COMPANY</p>
+          <p className="text-xl font-medium mb-5 text-[#69b4ff] ">COMPANIA</p>
           <ul className="flex flex-col gap-1 text-[#9e9e9e]">
             <li>Home</li>
-            <li>About us</li>
-            <li>Delivery</li>
-            <li>Privacy policy</li>
+            <li>Acerca De</li>
+            <li>Politica de privacidad</li>
           </ul>
         </div>
 
         <div>
-          <p className="text-xl font-medium mb-5 text-[#69b4ff]">
-            Lorem, ipsum dolor.
-          </p>
+          <p className="text-xl font-medium mb-5 text-[#69b4ff]">CONTACTANOS</p>
           <ul className="flex flex-col gap-1 text-[#9e9e9e]">
             <li>+1-212-456-7890</li>
             <li>contact@luxvapes.com</li>
