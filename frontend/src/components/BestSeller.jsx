@@ -15,10 +15,12 @@ const BestSeller = () => {
   return (
     <div className="my-10">
       <div className="text-center text-3xl py-8">
-        <Title text1={"BEST"} text2={"SELLERS"} />
-        <p className="w-3/4 m-auto text-xs sm:text-sm md:text-base text-[#9e9e9e]">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the.
+        <Title text1={"MAS"} text2={"VENDIDOS"} />
+        <p className="w-3/4 m-auto text-xs sm:text-sm md:text-base text-[#e1ffff]">
+          Estos son los vapes que más eligen nuestros clientes. Probados y
+          aprobados, estos modelos y sabores se han convertido en los favoritos
+          por una razón. No te quedes afuera y llevate uno de nuestros más
+          vendidos para disfrutar de una experiencia que ya es un clásico.
         </p>
       </div>
 

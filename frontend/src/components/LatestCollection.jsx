@@ -16,8 +16,10 @@ const LatestCollection = () => {
       <div className="text-center py-8 text-3xl">
         <Title text1={"ULTIMA"} text2={"COLECCION"} />
         <p className="w-3/4 m-auto text-xs sm:text-sm md:text-base text-[#ffffff]">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the.
+          Mirá lo más nuevo en tecnología y sabores con nuestra nueva línea de
+          vaporizadores. Cada vape está seleccionado pensando en ofrecerte una
+          experiencia única, con lo mejor en innovación y estilo. ¡Probá tu
+          próximo sabor favorito y disfrutá de un vapeo de primera!
         </p>
       </div>
 

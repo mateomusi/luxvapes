@@ -27,11 +27,11 @@ const Footer = () => {
 
         <div>
           <p className="text-xl font-medium mb-5 text-[#69b4ff]">
-            GET IN TOUCH
+            Lorem, ipsum dolor.
           </p>
           <ul className="flex flex-col gap-1 text-[#9e9e9e]">
             <li>+1-212-456-7890</li>
-            <li>contact@foreveryou.com</li>
+            <li>contact@luxvapes.com</li>
           </ul>
         </div>
       </div>
@@ -39,7 +39,7 @@ const Footer = () => {
       <div>
         <hr />
         <p className="py-5 text-sm text-center text-[#9e9e9e]">
-          Copyright 2024@ forever.com - All Right Reserved.
+          Copyright 2024@ luxvapes.com - All Right Reserved.
         </p>
       </div>
     </div>
