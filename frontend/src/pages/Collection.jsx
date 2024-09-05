@@ -99,7 +99,7 @@ const Collection = () => {
             showFilter ? "" : "hidden"
           } sm:block`}
         >
-          <p className="mb-3 text-sm font-medium text-[#006fff]">
+          <p className="mb-3 text-sm font-medium text-[#ffff]">
             Product category (Puffs)
           </p>
           <div className="flex flex-col gap-2 text-sm font-light text-[#69b4ff]">
@@ -155,7 +155,7 @@ const Collection = () => {
       {/* Right Side */}
       <div className="flex-1">
         <div className="flex justify-between text-base sm:text-2xl mb-4">
-          <Title text1={"ALL"} text2={"COLLECTIONS"} />
+          <Title text1={"COLECCION"} text2={"COMPLETA"} />
           {/* Porduct Sort */}
           <select
             onChange={(e) => setSortType(e.target.value)}
