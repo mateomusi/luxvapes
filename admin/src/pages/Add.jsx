@@ -172,7 +172,7 @@ const Add = ({ token }) => {
           <p className="mb-2">Product category (Puffs)</p>
           <select
             onChange={(e) => setCategory(e.target.value)}
-            className="w-full px-3 py-2"
+            className="w-full px-3 py-2 bg-[#69b4ff] text-[#ffff] "
           >
             <option value="6000 puffs">6000 puffs</option>
             <option value="8000 puffs">8000 puffs</option>
@@ -208,7 +208,7 @@ const Add = ({ token }) => {
           <button
             type="button"
             onClick={handleAddFlavor}
-            className="px-3 py-2 bg-black text-white"
+            className="px-3 py-2 bg-[#69b4ff] text-white rounded"
           >
             Add Flavor
           </button>
@@ -217,10 +217,10 @@ const Add = ({ token }) => {
           {flavors.map((flavor) => (
             <div
               key={flavor}
-              className={`flex items-center gap-2 px-3 py-1 cursor-pointer ${
+              className={`flex items-center gap-2 px-3 py-1 cursor-pointer rounded ${
                 selectedFlavors.includes(flavor)
-                  ? "bg-green-200"
-                  : "bg-slate-200"
+                  ? "bg-[#69b4ff]"
+                  : "bg-[#454545]"
               }`}
               onClick={() => handleToggleFlavor(flavor)}
             >
@@ -233,7 +233,10 @@ const Add = ({ token }) => {
         </div>
       </div>
 
-      <button type="submit" className="w-28 py-3 mt-4 bg-black text-white">
+      <button
+        type="submit"
+        className="w-28 py-3 mt-4 bg-[#69b4ff] text-white rounded"
+      >
         ADD
       </button>
     </form>
