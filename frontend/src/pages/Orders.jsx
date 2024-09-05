@@ -54,22 +54,24 @@ const Orders = () => {
             <div className="flex items-start gap-6 text-sm">
               <img className="w-16 sm:w-20" src={item.image[0]} alt="" />
               <div>
-                <p className="sm:text-base font-medium">{item.name}</p>
-                <div className="flex items-center gap-3 mt-1 text-base text-gray-700">
+                <p className="sm:text-base font-medium text-[#69b4ff]">
+                  {item.name}
+                </p>
+                <div className="flex items-center gap-3 mt-1 text-base text-white">
                   <p>
                     {currency}
                     {item.price}
                   </p>
                   <p>Cantidad: {item.quantity}</p>
-                  <p>Tamaño: {item.size}</p>
+                  <p>Sabor: {item.size}</p>
                 </div>
-                <p className="mt-1">
+                <p className="mt-1 text-[#ffff]">
                   Fecha:{" "}
                   <span className=" text-gray-400">
                     {new Date(item.date).toDateString()}
                   </span>
                 </p>
-                <p className="mt-1">
+                <p className="mt-1 text-[#ffff]">
                   Pago:{" "}
                   <span className=" text-gray-400">{item.paymentMethod}</span>
                 </p>
@@ -78,11 +80,13 @@ const Orders = () => {
             <div className="md:w-1/2 flex justify-between">
               <div className="flex items-center gap-2">
                 <p className="min-w-2 h-2 rounded-full bg-green-500"></p>
-                <p className="text-sm md:text-base">{item.status}</p>
+                <p className="text-sm md:text-base text-[#ffff]">
+                  {item.status}
+                </p>
               </div>
               <button
                 onClick={loadOrderData}
-                className="border px-4 py-2 text-sm font-medium rounded-sm"
+                className="border px-4 py-2 text-sm font-medium rounded-sm text-[#ffff] bg-[#69b4ff]"
               >
                 Seguir Pedido
               </button>

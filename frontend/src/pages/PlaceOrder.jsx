@@ -254,21 +254,21 @@ const PlaceOrder = () => {
           <div className="flex gap-3 flex-col lg:flex-row">
             <div
               onClick={() => setMethod("cod")}
-              className="flex items-center gap-3 border p-2 px-3 cursor-pointer"
+              className="flex items-center gap-3 border p-2 px-3 cursor-pointer bg-[#69b4ff] "
             >
               <p
                 className={`min-w-3.5 h-3.5 border rounded-full ${
                   method === "cod" ? "bg-green-400" : ""
                 }`}
               ></p>
-              <p className="text-gray-500 text-sm font-medium mx-4">EFECTIVO</p>
+              <p className="text-white text-sm font-medium mx-4">EFECTIVO</p>
             </div>
           </div>
 
           <div className="w-full text-end mt-8">
             <button
               type="submit"
-              className="bg-black text-white px-16 py-3 text-sm"
+              className="bg-[#69b4ff] text-white px-16 py-3 text-sm"
             >
               ORDENAR COMPRA
             </button>
